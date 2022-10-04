@@ -11,7 +11,7 @@ const commentsRouter = require("./routes/comments");
 app.use("/api", [postsRouter, commentsRouter]);
 
 app.get('/', (req, res) => {
-    res.send('반가워용✨!');
+    res.send('반가워용✨😎`!');
 });
 
 const port = 3002;
